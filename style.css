@@ -118,6 +118,10 @@ body {
   background-image: url("img/icon-css.svg");
 }
 
+.user-image {
+  text-align: center
+} 
+
 .level {
   margin: 4px 0 16px;
   padding: 0;
