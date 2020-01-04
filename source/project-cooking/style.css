@@ -1,0 +1,20 @@
+body {
+    font-family: Arial, Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    background-color: aquamarine;
+    position: center;
+    margin: 0;
+    background-position: top center;
+    text-align: center;
+}
+
+back-to-main {
+    float: right;
+    margin-right: 0;
+    width: 780;
+    vertical-align: top;
+}
+
+.site-header {
+    margin-bottom: 30px;
+}
