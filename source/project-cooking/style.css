@@ -1,20 +1,86 @@
 body {
-    font-family: Arial, Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 14px;
-    background-color: aquamarine;
-    position: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    background-color: rgba(145, 241, 213, 0.5);
     margin: 0;
     background-position: top center;
     text-align: center;
+    box-sizing: border-box;
 }
 
-back-to-main {
-    float: right;
-    margin-right: 0;
-    width: 780;
+.entry {
+    width: 990px;
+    text-align: center;
+    margin: auto;
+    padding: 5px 10px;
+    font-size: 20px;
+}
+.column {
+    display: inline-block;
+    width: 300px;
+    height: 200px;
+    margin: 20px;
+    border: solid 5px white;
     vertical-align: top;
+}
+
+.crop {
+    overflow: hidden;
+    width: 300px;
+}
+
+.crop img {
+    margin: -5px;
+}
+
+.ratio {
+    overflow: hidden;
+    position: relative;
+}
+
+p {
+    border: 5px solid white;
+    padding: 10px;
+}
+
+.ratio img {
+    height: 200px;
+}
+
+.p-absolute {
+    width: 780;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    border: dashed 2px gray;
 }
 
 .site-header {
     margin-bottom: 30px;
+    font-size: 40px;
+    font-weight: 600;   
+}
+
+.table: {
+    display: table;
+    padding: 0;
+    border-spacing: 20px;
+}
+
+.table-center {
+    margin: auto;
+}
+.table-row: {
+    display: table-row;
+}
+
+.cell {
+    display: table-cell;
+    width: 120px;
+}
+
+.table .table-row .cell {
+    border:1px dotted gray;
+    padding: 5px;
+    margin: 5px;
 }
